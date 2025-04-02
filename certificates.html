@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="util.css">
+    <link rel="stylesheet" href="certificates.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- font awsome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+    <title>Neeraj Portfolio</title>
+</head>
+
+<body style="background-image: url('blue_background.jpg'); ">
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="font-weight: bold;">
+        <a style="color: rgb(253, 57, 57); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"
+            class="navbar-brand" href="index.html">NEERAJ PORTFOLIO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active" style="text-decoration: underline white ;">
+                    <a class="nav-link" href="./certificates.html">Certification</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./resumeCV.html">Resume/CV</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./blogs.html">Blogs</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/webDevelopment.html" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Learn Web Development
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="dropdown-divider"></div>
+                        <h5 style="color:rgb(255, 41, 41)">BASIC»</h5>
+                        <a class="dropdown-item" href="https://www.geeksforgeeks.org/html-tutorial/">HTML</a>
+                        <a class="dropdown-item" href="https://www.geeksforgeeks.org/css-tutorial/">CSS</a>
+                        <a class="dropdown-item" href="https://www.w3schools.com/js/">Java Script</a>
+                        <div class="dropdown-divider"></div>
+                        <h5 style="color:rgb(255, 41, 41)">BACKEND»</h5>
+                        <a class="dropdown-item" href="https://www.w3schools.com/sql/">MySQL</a>
+                        <a class="dropdown-item" href="https://www.w3schools.com/python/">Python</a>
+                        <a class="dropdown-item" href="https://www.w3schools.com/java/">Java</a>
+                        <a class="dropdown-item" href="https://www.w3schools.com/php/">Php</a>
+                        <div class="dropdown-divider"></div>
+                        <h5 style="color:rgb(255, 41, 41)">DESIGN»</h5>
+                        <a class="dropdown-item" href="https://www.w3schools.com/REACT/DEFAULT.ASP">React.Js</a>
+                        <a class="dropdown-item" href="https://www.w3schools.com/bootstrap5/">Bootstrap</a>
+                        <a class="dropdown-item" href="https://www.w3schools.com/angular/">AngularJS</a>
+                        <a class="dropdown-item" href="https://www.w3schools.com/vue/">VueJS</a>
+                        <div class="dropdown-divider"></div>
+                        <h5 style="color:rgb(255, 41, 41)">FRAMEWORK»</h5>
+                        <a class="dropdown-item" href="https://www.geeksforgeeks.org/figma-tutorial/">Figma</a>
+                        <a class="dropdown-item" href="#">PhotoShop</a>
+                        <a class="dropdown-item" href="https://www.tpointtech.com/adobe-xd">Adobe XD</a>
+                        <div class="dropdown-divider"></div>
+                        <h5 style="color:rgb(255, 41, 41)">EXTRA»</h5>
+                        <a class="dropdown-item" href="https://www.w3schools.com/git/">Git</a>
+                        <a class="dropdown-item" href="https://www.w3schools.com/whatis/whatis_github.asp">Git Hub</a>
+                        <a class="dropdown-item" href="https://www.w3schools.com/css/css_rwd_mediaqueries.asp">Media
+                            Queries</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">More Blogs</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <div class="mx-2">
+                <button class="btn btn-danger" data-toggle="modal" data-target="#loginModal">Login</button>
+                <button class="btn btn-danger" data-toggle="modal" data-target="#signupModal">Sign Up</button>
+            </div>
+        </div>
+    </nav>
+    <!-- another nav -->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="resumeCV.html">Resume/CV</a></li>
+            <li class="breadcrumb-item"><a href="projects.html">Projects</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Certification</li>
+        </ol>
+    </nav>
+
+    <!--  -->
+
+
+    <!--login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginLabel">Login now</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- form for login -->
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <a class="text-white" style="text-decoration: none;"
+                                href="loginSubmit.html">Submit</a></button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- signup Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signupModalLabel">SignUp now</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Enter Your Name</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Confirm Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary"><a class="text-white"
+                                style="text-decoration: none;" href="signupSubmit.html">Submit</a></button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jumbroton -->
+    <div class="jumbotron" style="background-color: rgb(177, 244, 237)">
+        <h1 class="display-4" style="font-weight: bold;">Certificates</h1>
+        <p class="lead">These are me Licenced Certificates and you can view and download if you need..</p>
+        <hr class="my-4">
+        <p style="font-weight: bold; font-size: 22px;">Design is not just what it looks like and feels like. Design is
+            how it works.</p>
+        <p style="font-weight: bold; margin-left:600px; font-size: 22px;" class="text-danger">- Steve jobs</p>
+    </div>
+
+    <!-- card1 for certificates -->
+    <div class=" row mb-2 ml-2 mr-2 ">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <!--another card  -->
+                    <img src="hackerRank.png" class="card-img-top" alt="...">
+                    <!-- end -->
+                    <h5 class="card-title d-flex">Python Programming <p class="text-success ml-2">(Hacker Rank)</p>
+                    </h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="https://www.hackerrank.com/certificates/iframe/4eab45baf260" class="btn btn-primary">Click
+                        to view Certificate</a>
+                    <a href="https://drive.google.com/file/d/1dbvHR_xE47_ijpJMFWA5EC7uBEaJombV/view?usp=sharing"
+                        class="btn btn-danger">Download Certificate</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body ">
+                    <!--another card  -->
+                    <img src="microsoft_linkedin certificate image.jpg" class="card-img-top" alt="...">
+                    <!-- end -->
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="https://www.linkedin.com/learning/certificates/13bfef893b5bdc711fed4901bc1c15ef57976a65aa789a864fde0b11ea01bdda"
+                        class="btn btn-primary">Click to view Certificate</a>
+                    <a href="https://drive.google.com/file/d/1DvJDQZ9pj34OHrU219pq7a65UJZR4tLY/view?usp=sharing"
+                        class="btn btn-danger">Download Certificate</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- card 2 -->
+    <div class=" row  mb-2 ml-2 mr-2">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <!--another card  -->
+                    <img src="forage_deloite_image_certificate.png" class="card-img-top" alt="...">
+                    <!-- end -->
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href=" https://www.theforage.com/simulations/deloitte-au/cyber-c1e3"
+                        class="btn btn-primary">Click to view Certificate</a>
+                    <a href="https://drive.google.com/file/d/1BmLZijkCm1_BnXq-nLLqvEPft1wiAtc2/view?usp=sharing"
+                        class="btn btn-danger">Download Certificate</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <!--another card  -->
+                    <img src="cyber_linkedin_cerficate-img.png" class="card-img-top" alt="...">
+                    <!-- end -->
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="https://www.linkedin.com/learning/certificates/f9db5afa6ed7d4812f1c37fd0de484b8b855d9f58179edef0712bcc086cd463e"
+                        class="btn btn-primary">Go somewhere</a>
+                    <a href="https://drive.google.com/file/d/1M9HtPM_rOP5ugt3d_RreK-5CJ2cH_uZT/view?usp=sharing"
+                        class="btn btn-danger">Download Certificate</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- card 3 -->
+    <div class=" row mb-2 ml-2 mr-2">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <!--another card  -->
+                    <img src="udamy_html_css_js_img.jpg" class="card-img-top" alt="...">
+                    <!-- end -->
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="https://www.udemy.com/certificate/UC-0d314f84-db1c-43fc-bd36-e5d580dbe38f/"
+                        class="btn btn-primary">Click to view Certificate</a>
+                    <a href="https://drive.google.com/file/d/1KfD4chTEQDJMv35Xc8fc70Ht6I-FgrWd/view?usp=sharing"
+                        class="btn btn-danger">Download Certificate</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <!--another card  -->
+                    <img src="dsa_simpliLearn.png" class="card-img-top" alt="...">
+                    <!-- end -->
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="https://drive.google.com/file/d/1OpLC_Dry66nBEF0C8Qw4xKMCrwuaqa72/view?usp=sharing"
+                        class="btn btn-primary">Go somewhere</a>
+                    <a href="https://drive.google.com/file/d/1OpLC_Dry66nBEF0C8Qw4xKMCrwuaqa72/view?usp=sharing"
+                        class="btn btn-danger">Download Certificate</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- card 4 -->
+    <div class=" row  mb-2 ml-2 mr-2">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <!--another card  -->
+                    <img src="letsUpgrade_ReactJs.png" class="card-img-top" alt="...">
+                    <!-- end -->
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="letsUpgrade_ReactJs.png" class="btn btn-primary">Click to view Certificate</a>
+                    <a href="https://drive.google.com/file/d/14xHRRmO11yVD7g64exMvN5AoRhKndSKQ/view?usp=sharing"
+                        class="btn btn-danger">Download Certificate</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <!--another card  -->
+                    <img src="letsUpgrade_Java.png" class="card-img-top" alt="...">
+                    <!-- end -->
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="letsUpgrade_Java.png" class="btn btn-primary">Click to view Certificate</a>
+                    <a href="https://drive.google.com/file/d/1UvIDRu8o_A8L2HiRXTvosa3H5CCrAEF8/view?usp=sharing"
+                        class="btn btn-danger">Download Certificate</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- card 5 -->
+    <div class=" row  mb-2 ml-2 mr-2">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <!--another card  -->
+                    <img src="letsUpgrade_ReactJs.png" class="card-img-top" alt="...">
+                    <!-- end -->
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="letsUpgrade_ReactJs.png" class="btn btn-primary">Click to view Certificate</a>
+                    <a href="https://drive.google.com/file/d/14xHRRmO11yVD7g64exMvN5AoRhKndSKQ/view?usp=sharing"
+                        class="btn btn-danger">Download Certificate</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <!--another card  -->
+                    <img src="letsUpgrade_Java.png" class="card-img-top" alt="...">
+                    <!-- end -->
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="letsUpgrade_Java.png" class="btn btn-primary">Click to view Certificate</a>
+                    <a href="https://drive.google.com/file/d/1UvIDRu8o_A8L2HiRXTvosa3H5CCrAEF8/view?usp=sharing"
+                        class="btn btn-danger">Download Certificate</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- card 6 -->
+    <div class=" row  mb-2 ml-2 mr-2">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <!--another card  -->
+                    <img src="tcs_communication-certi.png" class="card-img-top" alt="...">
+                    <!-- end -->
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="tcs_communication-certi.png" class="btn btn-primary">Click to view Certificate</a>
+                    <a href="https://drive.google.com/file/d/1rnQJnIcjoA4FLI_pt0SUx6baNcA-jPvy/view?usp=sharing"
+                        class="btn btn-danger">Download Certificate</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <!--another card  -->
+                    <img src="udamy_js_fundamentals.png" class="card-img-top" alt="...">
+                    <!-- end -->
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="udamy_js_fundamentals.png" class="btn btn-primary">Click to view Certificate</a>
+                    <a href="https://drive.google.com/file/d/1NA6Ind2CTaOvCk90B86I9T2kh_hNCT_l/view?usp=sharing"
+                        class="btn btn-danger">Download Certificate</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- card 7 -->
+    <div class=" row  mb-2 ml-2 mr-2">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <!--another card  -->
+                    <img src="udamy_c++.png" class="card-img-top" alt="...">
+                    <!-- end -->
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="udamy_c++.png" class="btn btn-primary">Click to view Certificate</a>
+                    <a href="https://drive.google.com/file/d/1qMxY9nWOLENv8FImyCr9t_ja0CtNORye/view?usp=sharing"
+                        class="btn btn-danger">Download Certificate</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <!--another card  -->
+                    <img src="udamy_figma.png" class="card-img-top" alt="...">
+                    <!-- end -->
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="udamy_figma.png" class="btn btn-primary">Click to view Certificate</a>
+                    <a href="https://drive.google.com/file/d/1yKnxPjWEz56t16IUtpIHAvGcLMgpEClq/view?usp=sharing"
+                        class="btn btn-danger">Download Certificate</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- footer of web page -->
+    <footer class=" w-100vw  "
+        style="display: flex; justify-content: center; align-items: center; background-color: white; margin: top 2px; padding: 0px; height: 100px; ">
+        <p>© 2022-2023 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+        <p class="float-right "><a href="#" style="margin-left: 25px;">Back to top</a></p>
+    </footer>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
